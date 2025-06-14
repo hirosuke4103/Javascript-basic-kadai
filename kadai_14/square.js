@@ -1,4 +1,5 @@
 const totalproduct = (product) => {
-    console.log(product*product);
+    return product*product
+    
 }
-totalproduct(10)
+console.log(totalproduct(10));
